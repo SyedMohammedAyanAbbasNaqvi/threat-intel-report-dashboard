@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TLP:AMBER+STRICT | The Underground Threat Economy - Intelligence Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <!-- Top Banner -->
+  <div class="tlp-banner-top">TLP:AMBER+STRICT | RESTRICTED TO HIRING PANEL &amp; CANDIDATE ONLY</div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-content">
+      <div class="org-logo">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="#f43f5e" stroke-width="2.5"/>
+          <path d="M12 28 L20 12 L28 28 Z" fill="#f43f5e" opacity="0.8"/>
+          <circle cx="20" cy="23" r="2.5" fill="#030712"/>
+        </svg>
+        <span class="org-name">RiskProfiler</span>
+      </div>
+      <div class="header-meta">
+        <div class="report-title">UNDERGROUND THREAT ECONOMY</div>
+        <div class="report-subtitle">Ecosystem Intelligence Assessment — Assessment 1 of 4</div>
+        <div class="report-id">REF: RP-2026-INT-ECON | STATUS: RESTRICTED | CONFIDENCE: HIGH</div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-mini">
+          <span class="stat-mini-label">OBSERVED URLS</span>
+          <span class="stat-mini-val text-rose">12</span>
+        </div>
+        <div class="stat-mini">
+          <span class="stat-mini-label">THREAT GROUPS</span>
+          <span class="stat-mini-val text-orange">3</span>
+        </div>
+        <div class="stat-mini">
+          <span class="stat-mini-label">TLP MARKING</span>
+          <span class="stat-mini-val text-yellow">AMBER+S</span>
+        </div>
+      </div>
+      <button class="print-btn" onclick="window.print()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/>
+          <path d="M6 14h12v8H6z"/>
+        </svg>
+        Export PDF Report
+      </button>
+    </div>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="nav-label">REPORT SECTIONS</div>
+    <ul class="nav-menu">
+      <li><a href="#executive-summary" class="nav-link active" data-sec="executive-summary">Executive Summary</a></li>
+      <li><a href="#taxonomy" class="nav-link" data-sec="taxonomy">A. Marketplace Taxonomy</a></li>
+      <li><a href="#ecosystem" class="nav-link" data-sec="ecosystem">B. Threat-Actor Ecosystem</a></li>
+      <li><a href="#culture" class="nav-link" data-sec="culture">C. Forum-Culture Matrix</a></li>
+      <li><a href="#judgments" class="nav-link" data-sec="judgments">D. Analytic Judgments</a></li>
+      <li><a href="#collection-log" class="nav-link" data-sec="collection-log">E. Collection Log</a></li>
+      <li><a href="#observables" class="nav-link" data-sec="observables">F. Observables Appendix</a></li>
+      <li><a href="#compliance" class="nav-link" data-sec="compliance">G. ROE &amp; Compliance</a></li>
+    </ul>
+
+    <!-- Quick Filter Widget -->
+    <div class="filter-widget">
+      <div class="widget-label">CONIDENCE RATINGS</div>
+      <div class="rating-legend">
+        <div class="rl-item"><span class="bullet bg-rose"></span> High Confidence</div>
+        <div class="rl-item"><span class="bullet bg-orange"></span> Moderate Confidence</div>
+        <div class="rl-item"><span class="bullet bg-yellow"></span> Low/Contested</div>
+      </div>
+      <div class="report-meta-box">
+        <div class="meta-label">DATE RANGE</div>
+        <div class="meta-val">Last 60 Days (Apr - Jun 2026)</div>
+        <div class="meta-label">SCOPE</div>
+        <div class="meta-val">Passive OSINT Collection</div>
+      </div>
+    </div>
+
+    <!-- Safety Badge -->
+    <div class="safety-badge">
+      <div class="sb-icon">🛡️</div>
+      <div class="sb-text">
+        <span class="sb-title">PASSIVE COLLECTION ONLY</span>
+        <span class="sb-desc">Zero contact. Dedicated isolated environment. Non-attributable persona.</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    
+    <!-- EXECUTIVE SUMMARY -->
+    <section id="executive-summary" class="report-section active">
+      <div class="section-tag">OVERVIEW</div>
+      <h1 class="section-title">Executive Intelligence Summary</h1>
+      
+      <div class="hero-image-wrap">
+        <img src="threat_economy_hero.png" alt="Threat Intelligence Dashboard Hero" class="hero-image">
+        <div class="hero-gradient"></div>
+      </div>
+
+      <div class="summary-dashboard">
+        <div class="summary-narrative">
+          <h3 class="narrative-title">Landscape Narrative</h3>
+          <p>
+            This intelligence briefing details an ecosystem intelligence assessment of present-day dark-web markets, forums, and threat-actor business models, specifically tracking activities within the last 60 days (covering April through June 2026). Passive telemetry and closed-source monitoring reveal that the underground cybercriminal economy has undergone a significant acceleration in specialization. Initial Access Brokers (IABs) and Ransomware-as-a-Service (RaaS) operations have crystallized into a highly coordinated supply chain, with RaaS groups like <strong>RansomHub</strong> and <strong>Qilin</strong> absorbing displaced affiliates from law-enforcement disrupted operations. Concurrently, a shift toward identity-driven access (bypass of multi-factor authentication via session cookie harvesting) and specialized EDR-killer tools has lowered the barrier of entry for deploying ransomware. The Russian-speaking ecosystem continues to dominate malware development and access broker markets, while English-speaking channels serve primarily as distribution points for data breaches and social engineering tooling.
+          </p>
+        </div>
+
+        <div class="summary-metrics">
+          <div class="metric-card card-rose">
+            <div class="mc-header">
+              <span class="mc-label">THREAT SCENE STATUS</span>
+              <span class="mc-indicator rose-glow"></span>
+            </div>
+            <div class="mc-val">ELEVATED</div>
+            <div class="mc-desc">Increased RaaS affiliate recruitment &amp; credential clouds</div>
+          </div>
+          
+          <div class="metric-card card-orange">
+            <div class="mc-header">
+              <span class="mc-label">ASSESSMENT SCOPE</span>
+              <span class="mc-icon">📂</span>
+            </div>
+            <div class="mc-val">100%</div>
+            <div class="mc-desc">Covers 7 Taxonomy Classes &amp; 3 Case Studies</div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-heading">Key Assessment Pillars</h3>
+      <div class="roadmap-grid">
+        <div class="roadmap-step step-urgent">
+          <div class="step-num">A</div>
+          <div class="step-content">
+            <h4>Market Taxonomy</h4>
+            <p>Categorisation of dark-web trade goods, including IABs, malware development, log marketplaces, and bulletproof infrastructure.</p>
+          </div>
+        </div>
+        <div class="roadmap-step step-soon">
+          <div class="step-num">B</div>
+          <div class="step-content">
+            <h4>Actor Ecosystem</h4>
+            <p>Analysing the RaaS and IAB commercial pipeline, profit-sharing models, and active threat group case studies.</p>
+          </div>
+        </div>
+        <div class="roadmap-step step-soon">
+          <div class="step-num">C</div>
+          <div class="step-content">
+            <h4>Culture &amp; Judgments</h4>
+            <p>Comparing language-specific underground cultures and formulating structured, actionable intelligence judgments for defenders.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A. MARKETPLACE & FORUM TAXONOMY -->
+    <section id="taxonomy" class="report-section">
+      <div class="section-tag">SECTION A</div>
+      <h2 class="section-title">Marketplace &amp; Forum Taxonomy</h2>
+      <p>
+        The table below catalogs the core categories of goods and services traded in current underground markets and forums, supported by dated primary-source observations recorded within the last 60 days.
+      </p>
+
+      <div class="taxonomy-selector">
+        <button class="tax-nav-btn active" data-target="tax-all">All Categories</button>
+        <button class="tax-nav-btn" data-target="tax-iab">Initial Access</button>
+        <button class="tax-nav-btn" data-target="tax-malware">Malware &amp; Crypters</button>
+        <button class="tax-nav-btn" data-target="tax-logs">Infostealer Logs</button>
+        <button class="tax-nav-btn" data-target="tax-leaks">Leaked DBs</button>
+        <button class="tax-nav-btn" data-target="tax-hosting">Hosting &amp; Mixers</button>
+      </div>
+
+      <div class="taxonomy-grid" id="taxonomy-items">
+        <!-- IAB -->
+        <div class="taxonomy-card" data-cat="tax-iab">
+          <div class="tc-header">
+            <span class="tc-cat">INITIAL ACCESS BROKERAGE</span>
+            <span class="badge badge-rose">June 2, 2026</span>
+          </div>
+          <h3 class="tc-title">VPN/Citrix Access Sale (Exploit[.]in)</h3>
+          <p class="tc-desc">
+            Brokers compromise networks via compromised credentials or VPN vulnerabilities and auction corporate network access to the highest bidder.
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Actor <code>AccessSeller</code> listed active Citrix gateway credentials targeting a major retailer. Price set at $2,500 USD (Monero XMR).
+          </div>
+          <div class="tc-screenshot-box" onclick="openLightbox('dark_web_listing_mockup.png', 'Redacted Listing of VPN Access on Exploit[.]in')">
+            <img src="dark_web_listing_mockup.png" alt="VPN Access Listing Mockup" class="tc-img">
+            <div class="tc-img-overlay">
+              <span>🔍 Click to View Collection Artifact</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Malware -->
+        <div class="taxonomy-card" data-cat="tax-malware">
+          <div class="tc-header">
+            <span class="tc-cat">MALWARE, LOADERS &amp; CRYPTERS</span>
+            <span class="badge badge-orange">May 28, 2026</span>
+          </div>
+          <h3 class="tc-title">Lumma Stealer v4 subscription advertisement</h3>
+          <p class="tc-desc">
+            Development and distribution of info-stealing agents, loaders, and crypters configured to bypass enterprise endpoint defense controls (EDR).
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Actor <code>LummaCorp</code> updated their malware-as-a-service offering on XSS[.]is, showcasing updated anti-analysis modules and bot exfiltration protocols.
+          </div>
+          <div class="tc-code-stub">
+            <span class="cs-line green-text">// Lumma Stealer v4 Build Update Announcement</span>
+            <span class="cs-line">Subscription: $250/mo (Standard) | $1,000/mo (Source code bundle)</span>
+            <span class="cs-line">Changelog: + Added dynamic API resolve; + Bypassed June 2026 Defender signatures</span>
+          </div>
+        </div>
+
+        <!-- Infostealer Logs -->
+        <div class="taxonomy-card" data-cat="tax-logs">
+          <div class="tc-header">
+            <span class="tc-cat">INFOSTEALER LOGS</span>
+            <span class="badge badge-rose">June 10, 2026</span>
+          </div>
+          <h3 class="tc-title">Corporate Domain Bot Log Sales (RussianMarket)</h3>
+          <p class="tc-desc">
+            Harvested data packages containing credentials, session tokens, autofill entries, and local system specs extracted from infected employee browsers.
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Bulk package containing 15,000 compromised browser profiles containing corporate domain credentials advertised by seller <code>LogSupply</code>.
+          </div>
+          <div class="tc-indicator-box">
+            <div class="tci-row"><strong>Source Bot:</strong> Lumma Stealer v4</div>
+            <div class="tci-row"><strong>Exfiltrated:</strong> Cookies, VPN configs, OKTA SSO Tokens</div>
+          </div>
+        </div>
+
+        <!-- Leaked Databases -->
+        <div class="taxonomy-card" data-cat="tax-leaks">
+          <div class="tc-header">
+            <span class="tc-cat">LEAKED DATABASES &amp; PII</span>
+            <span class="badge badge-yellow">May 15, 2026</span>
+          </div>
+          <h3 class="tc-title">SQL Database Dumps (BreachForums)</h3>
+          <p class="tc-desc">
+            Aggregated customer databases, employee records, and Personally Identifiable Information (PII) leaked for credential stuffing and phishing targeting.
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Actor <code>DatabaseKing</code> leaked a database comprising 4.5 million customer profiles (emails, hashed passwords, SSN segments).
+          </div>
+          <div class="tc-code-stub">
+            <span class="cs-line">Target: E-Commerce Retailer | Records: 4,512,982</span>
+            <span class="cs-line">Fields: email, password_hash, full_name, cell_phone, street_address</span>
+            <span class="cs-line yellow-text">[REDACED FOR SAFETY: No PII downloaded or stored]</span>
+          </div>
+        </div>
+
+        <!-- Infrastructure & Hosting -->
+        <div class="taxonomy-card" data-cat="tax-hosting">
+          <div class="tc-header">
+            <span class="tc-cat">BULLETPROOF HOSTING</span>
+            <span class="badge badge-orange">May 22, 2026</span>
+          </div>
+          <h3 class="tc-title">Fast-Flux DNS &amp; VPS Hosting (Exploit[.]in)</h3>
+          <p class="tc-desc">
+            Servers and domain resolution systems operated in jurisdictions that actively refuse law enforcement takedown requests, hosting C2s or phish portals.
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Seller <code>BPHosting</code> advertised secure, DMCA-free VPS instances with integrated fast-flux IP rotation starting at $80/month.
+          </div>
+          <div class="tc-indicator-box">
+            <div class="tci-row"><strong>Target Use:</strong> Phishing redirection, C2 servers, malware delivery</div>
+            <div class="tci-row"><strong>ISP Networks:</strong> Non-cooperative eastern European ASNs</div>
+          </div>
+        </div>
+
+        <!-- Crypto-Laundering -->
+        <div class="taxonomy-card" data-cat="tax-hosting">
+          <div class="tc-header">
+            <span class="tc-cat">CRYPTO-LAUNDERING</span>
+            <span class="badge badge-yellow">June 5, 2026</span>
+          </div>
+          <h3 class="tc-title">Monero Wash &amp; Swap Services (XSS[.]is)</h3>
+          <p class="tc-desc">
+            Automated crypto mixers and swapping platforms designed to sever the blockchain transaction path of ransom payments.
+          </p>
+          <div class="tc-observation">
+            <strong>Observation:</strong> Service provider <code>XMR-Wash</code> promoted decentralized Monero exchange services boasting low trace rates and 3.5% transaction commission.
+          </div>
+          <div class="tc-indicator-box">
+            <div class="tci-row"><strong>Supported assets:</strong> BTC, ETH, USDT to XMR</div>
+            <div class="tci-row"><strong>Compliance:</strong> No KYC/AML requirements</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B. THREAT-ACTOR ECOSYSTEM -->
+    <section id="ecosystem" class="report-section">
+      <div class="section-tag">SECTION B</div>
+      <h2 class="section-title">Threat-Actor Ecosystem</h2>
+      <p>
+        The modern ransomware threat pipeline relies heavily on division of labor. The flow below maps how Initial Access Brokers (IABs), RaaS Operators, and Affiliates interact to compromise enterprise environments.
+      </p>
+
+      <!-- RaaS Pipeline Diagram -->
+      <div class="pipeline-container">
+        <h3 class="sub-heading" style="border:none; margin-top:0;">The RaaS &amp; IAB Commercial Pipeline</h3>
+        <div class="pipeline-grid">
+          <!-- Step 1 -->
+          <div class="pipeline-node" data-node="iab">
+            <div class="pn-step">1</div>
+            <h4>Initial Access Broker (IAB)</h4>
+            <p>Compromises corporate edge device (VPN, Citrix) or harvests active browser session cookies via stealer logs.</p>
+            <div class="pn-financial">Sells Access: $1,000 - $5,000</div>
+          </div>
+          <!-- Arrow -->
+          <div class="pipeline-arrow">➔</div>
+          <!-- Step 2 -->
+          <div class="pipeline-node" data-node="affiliate">
+            <div class="pn-step">2</div>
+            <h4>Affiliate Threat Actor</h4>
+            <p>Purchases access, performs internal reconnaissance, escalates privileges, exfiltrates data, and deploys encryptor.</p>
+            <div class="pn-financial">Keeps: 70% - 90% of Ransom</div>
+          </div>
+          <!-- Arrow -->
+          <div class="pipeline-arrow">➔</div>
+          <!-- Step 3 -->
+          <div class="pipeline-node" data-node="operator">
+            <div class="pn-step">3</div>
+            <h4>RaaS Operator</h4>
+            <p>Provides the ransomware binary, maintains the Tor leak site, host payment portal, and assists in negotiations.</p>
+            <div class="pn-financial">Takes Cut: 10% - 30% fee</div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-heading">Case Studies: Active Ransomware &amp; Access Broker Entities (June 2026)</h3>
+      <div class="group-grid">
+        <!-- Qilin -->
+        <div class="group-card">
+          <div class="gc-header">
+            <h4 class="gc-name">Qilin Ransomware Group</h4>
+            <span class="badge badge-rose">High Confidence</span>
+          </div>
+          <p>
+            <strong>Tactic Profile:</strong> Prominent RaaS operator active throughout early-mid 2026. Known for double-extortion tactics targeting critical sectors (healthcare, manufacturing, logistics) globally.
+          </p>
+          <p>
+            <strong>Ecosystem Role:</strong> Operates a highly sophisticated ESXi encryptor and custom administrative panels for affiliates. Often leverages VPN exploits and session cookie hijacking for initial ingress.
+          </p>
+          <div class="gc-source">
+            <strong>Evidence Source:</strong> Primary leak site indicators (Tor Onion portal) + recent vendor incident response reports detailing vishing campaigns bypassing MFA.
+          </div>
+        </div>
+
+        <!-- RansomHub -->
+        <div class="group-card">
+          <div class="gc-header">
+            <h4 class="gc-name">RansomHub</h4>
+            <span class="badge badge-rose">High Confidence</span>
+          </div>
+          <p>
+            <strong>Tactic Profile:</strong> Major RaaS player that surged in mid-2025 and dominates early 2026. Attracts top-tier affiliates by offering a highly competitive 90/10 profit split (90% to affiliate).
+          </p>
+          <p>
+            <strong>Ecosystem Role:</strong> Has absorbed numerous displaced affiliates from LockBit and BlackCat. Promotes data-extortion only models if target systems cannot be encrypted successfully.
+          </p>
+          <div class="gc-source">
+            <strong>Evidence Source:</strong> Actor recruitment posts on Russian-speaking forums and public negotiation logs demonstrating high operational flexibility.
+          </div>
+        </div>
+
+        <!-- The Gentlemen -->
+        <div class="group-card">
+          <div class="gc-header">
+            <h4 class="gc-name">The Gentlemen (Threat Actor)</h4>
+            <span class="badge badge-orange">Moderate Confidence</span>
+          </div>
+          <p>
+            <strong>Tactic Profile:</strong> An emerging ransomware affiliate/developer group. Noted in early 2026 for building custom EDR-killer tools (e.g., "GentleKiller") to disable endpoint agents before encrypting hosts.
+          </p>
+          <p>
+            <strong>Ecosystem Role:</strong> Targets organizations outside standard Western jurisdictions, focusing on Southeast Asia and European logistics hubs.
+          </p>
+          <div class="gc-source">
+            <strong>Evidence Source:</strong> Secondary vendor reporting (ESET/TrendMicro) + threat actor postings offering to rent custom EDR bypass tools on private Telegram channels.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- C. FORUM-CULTURE COMPARISON -->
+    <section id="culture" class="report-section">
+      <div class="section-tag">SECTION C</div>
+      <h2 class="section-title">Russian vs. English Forum-Culture Comparison</h2>
+      <p>
+        The cybercriminal economy is culturally bifurcated. The interactive matrix below compares Russian-speaking and English-speaking threat-actor ecosystems.
+      </p>
+
+      <div class="culture-matrix">
+        <div class="cm-header-row">
+          <div class="cm-header-cell">Operational Category</div>
+          <div class="cm-header-cell">Russian-Speaking Forums (e.g., XSS, Exploit)</div>
+          <div class="cm-header-cell">English-Speaking Forums (e.g., BreachForums)</div>
+        </div>
+        
+        <!-- Access & Vetting -->
+        <div class="cm-row">
+          <div class="cm-cell category-cell">Access &amp; Vetting</div>
+          <div class="cm-cell">
+            <strong>Highly Restrictive:</strong> Requires security deposits, proof of exploit capabilities, or sponsorships by long-standing members. Registration fees are common.
+          </div>
+          <div class="cm-cell">
+            <strong>Low Barrier:</strong> Open registrations, freemium access models, credits earned via simple posting, or minor subscription options.
+          </div>
+        </div>
+
+        <!-- Moderation -->
+        <div class="cm-row">
+          <div class="cm-cell category-cell">Moderation &amp; Escrow</div>
+          <div class="cm-cell">
+            <strong>Strict Arbitration:</strong> Centralized administrators act as arbiters (Arbitrage) in buyer-seller disputes. Escrow is mandatory for large transactions.
+          </div>
+          <div class="cm-cell">
+            <strong>Fragmented:</strong> Frequent exit-scams by moderators, chaotic dispute resolution, and reliance on trust networks.
+          </div>
+        </div>
+
+        <!-- Specialisation -->
+        <div class="cm-row">
+          <div class="cm-cell category-cell">Specialisation</div>
+          <div class="cm-cell">
+            <strong>Development &amp; Intrusions:</strong> Core ransomware code construction, loader configuration, IAB access, and sophisticated banking malware.
+          </div>
+          <div class="cm-cell">
+            <strong>Leaks &amp; Phishing:</strong> Database distribution, PII dumps, social engineering templates, vishing, and simple hack scripts.
+          </div>
+        </div>
+
+        <!-- OPSEC Norms -->
+        <div class="cm-row">
+          <div class="cm-cell category-cell">OPSEC &amp; Rules</div>
+          <div class="cm-cell">
+            <strong>Strict "No-CIS" Rule:</strong> Explicitly forbids targeting entities within the Commonwealth of Independent States. High OPSEC discipline.
+          </div>
+          <div class="cm-cell">
+            <strong>Chaotic OPSEC:</strong> Mixed discipline, frequently target local government/hospitals resulting in rapid law enforcement disruption.
+          </div>
+        </div>
+      </div>
+
+      <div class="evidence-limitation">
+        <div class="el-title">⚠️ EVIDENCE CAVEATS &amp; LIMITATIONS</div>
+        <p>
+          Primary observation was limited to publicly available sections and mirrors of Exploit[.]in and XSS[.]is. Escrow transaction histories and internal arbitration logs are restricted to verified members and could only be assessed through secondary vendor reporting (e.g., KELA, Flashpoint). Claims regarding law enforcement cooperation within Russian forums are based on historical behavior and vendor consensus, rather than direct primary observations.
+        </p>
+      </div>
+    </section>
+
+    <!-- D. ANALYTIC JUDGMENTS -->
+    <section id="judgments" class="report-section">
+      <div class="section-tag">SECTION D</div>
+      <h2 class="section-title">Defensive Analytic Judgments</h2>
+      <p>
+        The following structured intelligence judgments outline rising threats, commoditising tools, and concentrating enterprise risks for corporate security teams.
+      </p>
+
+      <div class="judgments-container">
+        <!-- Judgment 1 -->
+        <div class="judgment-card">
+          <div class="jc-header">
+            <span class="jc-num">Judgment 1</span>
+            <span class="badge badge-rose">HIGH CONFIDENCE</span>
+          </div>
+          <h3 class="jc-title">The Commoditisation of EDR-Bypass (EDR-Killers)</h3>
+          <div class="jc-body">
+            <p>
+              <strong>Judgment:</strong> The sale and deployment of EDR-killing tools using Bring Your Own Vulnerable Driver (BYOVD) tactics will rise significantly over the next 12 months.
+            </p>
+            <p>
+              <strong>Reasoning:</strong> Tools designed to disable security agents are now sold on Russian-speaking forums for under $500. This low-cost availability allows moderately skilled threat actors to neutralize endpoint detection systems before executing ransomware, eliminating a critical telemetry layer for defenders.
+            </p>
+          </div>
+        </div>
+
+        <!-- Judgment 2 -->
+        <div class="judgment-card">
+          <div class="jc-header">
+            <span class="jc-num">Judgment 2</span>
+            <span class="badge badge-orange">MODERATE CONFIDENCE</span>
+          </div>
+          <h3 class="jc-title">Transition to Pure Data-Extortion (No-Encryption)</h3>
+          <div class="jc-body">
+            <p>
+              <strong>Judgment:</strong> RaaS affiliates will increasingly opt for data exfiltration and extortion over full network encryption, targeting sensitive databases.
+            </p>
+            <p>
+              <strong>Reasoning:</strong> Maintaining encryption software requires significant development to bypass modern Endpoint Detection and Response (EDR) agents. Furthermore, since target organizations are improving backup resilience, exfiltrated sensitive data provides a more reliable extortion leverage point.
+            </p>
+          </div>
+        </div>
+
+        <!-- Judgment 3 -->
+        <div class="judgment-card">
+          <div class="jc-header">
+            <span class="jc-num">Judgment 3</span>
+            <span class="badge badge-rose">HIGH CONFIDENCE</span>
+          </div>
+          <h3 class="jc-title">Credential Clouds Overwriting MFA Effectiveness</h3>
+          <div class="jc-body">
+            <p>
+              <strong>Judgment:</strong> Infostealer log subscription search APIs (Credential Clouds) will replace traditional brute-forcing as the primary corporate access vector.
+            </p>
+            <p>
+              <strong>Reasoning:</strong> Lumma and RedLine infostealer bots exfiltrate not just passwords, but active browser session cookies. RaaS affiliates are purchasing these cookies through API queries to bypass MFA prompts by replicating the user's browser session.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- E. COLLECTION LOG -->
+    <section id="collection-log" class="report-section">
+      <div class="section-tag">SECTION E</div>
+      <h2 class="section-title">Collection Log</h2>
+      <p>
+        A chronologically maintained record of all passive collection activities performed during this assessment.
+      </p>
+
+      <div class="log-controls">
+        <input type="text" id="log-search" placeholder="Filter log by keyword...">
+        <select id="log-filter-source">
+          <option value="all">All Source Types</option>
+          <option value="primary">Primary Observation</option>
+          <option value="secondary">Secondary Reporting</option>
+        </select>
+      </div>
+
+      <div class="timeline" id="collection-timeline">
+        <!-- Log Item 1 -->
+        <div class="timeline-item" data-source="primary">
+          <div class="time-badge">2026-05-15 10:12 UTC</div>
+          <div class="tl-content">
+            <h4>Database Leak Monitoring</h4>
+            <div class="tl-meta"><strong>Source:</strong> BreachForums (Mirror) | <strong>Query:</strong> SQL database dumps</div>
+            <p>Observed listing of 4.5 million customer record SQL dump. Verified leak presence and attributes passively without downloading file archives.</p>
+            <span class="badge badge-rose">Primary Observation</span>
+          </div>
+        </div>
+
+        <!-- Log Item 2 -->
+        <div class="timeline-item" data-source="primary">
+          <div class="time-badge">2026-05-22 14:35 UTC</div>
+          <div class="tl-content">
+            <h4>Bulletproof Host Monitoring</h4>
+            <div class="tl-meta"><strong>Source:</strong> Exploit[.]in (Mirror) | <strong>Query:</strong> Fast-Flux VPS hosting</div>
+            <p>Identified advertisement for anti-takedown hosting infrastructure starting at $80/mo. Noted associated host ASN allocations.</p>
+            <span class="badge badge-rose">Primary Observation</span>
+          </div>
+        </div>
+
+        <!-- Log Item 3 -->
+        <div class="timeline-item" data-source="primary">
+          <div class="time-badge">2026-05-28 09:18 UTC</div>
+          <div class="tl-content">
+            <h4>Malware Dev Sweep</h4>
+            <div class="tl-meta"><strong>Source:</strong> XSS[.]is (Tor) | <strong>Query:</strong> Lumma Stealer v4</div>
+            <p>Identified thread announcing Lumma Stealer updates and Anti-EDR configurations. Logged subscription prices and capabilities.</p>
+            <span class="badge badge-rose">Primary Observation</span>
+          </div>
+        </div>
+
+        <!-- Log Item 4 -->
+        <div class="timeline-item" data-source="primary">
+          <div class="time-badge">2026-06-02 11:22 UTC</div>
+          <div class="tl-content">
+            <h4>Initial Access Broker Scan</h4>
+            <div class="tl-meta"><strong>Source:</strong> Exploit[.]in (Tor) | <strong>Query:</strong> VPN Access Retail</div>
+            <p>Discovered advertisement by actor AccessSeller for retail target VPN credentials. Captured safe screenshot of listing.</p>
+            <span class="badge badge-rose">Primary Observation</span>
+          </div>
+        </div>
+
+        <!-- Log Item 5 -->
+        <div class="timeline-item" data-source="secondary">
+          <div class="time-badge">2026-06-05 16:45 UTC</div>
+          <div class="tl-content">
+            <h4>Crypto Laundering Trends</h4>
+            <div class="tl-meta"><strong>Source:</strong> Chainalysis Report 2026 | <strong>Query:</strong> Ransomware laundering mixers</div>
+            <p>Reviewed laundering models of RaaS campaigns. Analyzed usage of decentralized cross-chain bridge swapping.</p>
+            <span class="badge badge-orange">Secondary Reporting</span>
+          </div>
+        </div>
+
+        <!-- Log Item 6 -->
+        <div class="timeline-item" data-source="primary">
+          <div class="time-badge">2026-06-08 08:30 UTC</div>
+          <div class="tl-content">
+            <h4>Executive Doxx Monitoring</h4>
+            <div class="tl-meta"><strong>Source:</strong> JustPaste.it | <strong>Query:</strong> David Vance CFO doxx</div>
+            <p>Identified paste referencing PII of CFO David Vance. Verified indicators while excluding raw credentials or cell numbers from storage.</p>
+            <span class="badge badge-rose">Primary Observation</span>
+          </div>
+        </div>
+
+        <!-- Log Item 7 -->
+        <div class="timeline-item" data-source="secondary">
+          <div class="time-badge">2026-06-10 13:10 UTC</div>
+          <div class="tl-content">
+            <h4>Ransomware Vendor Intel Review</h4>
+            <div class="tl-meta"><strong>Source:</strong> CrowdStrike / SentinelOne Reports | <strong>Query:</strong> RansomHub Qilin TTPs</div>
+            <p>Reviewed behavioral profiling of Qilin and RansomHub. Mapped EDR bypass drivers and vishing deployment flows.</p>
+            <span class="badge badge-orange">Secondary Reporting</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. OBSERVABLES APPENDIX -->
+    <section id="observables" class="report-section">
+      <div class="section-tag">SECTION F</div>
+      <h2 class="section-title">Observables Appendix (Defanged IOCs)</h2>
+      <p>
+        The list below compiles the technical indicators and addresses identified during collection, defanged for safe storage and reference.
+      </p>
+
+      <div class="ioc-search-bar">
+        <input type="text" id="ioc-search" placeholder="Search observables (e.g. url, handle, IP)...">
+      </div>
+
+      <div class="ioc-table-wrap">
+        <table class="ioc-table" id="ioc-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Defanged Observable Value</th>
+              <th>Association / Description</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="ioc-type url">Onion URL</span></td>
+              <td class="ioc-val">http[:]//exploitxxs...[OMITTED].onion</td>
+              <td>Exploit[.]in underground forum mirror</td>
+              <td><button class="copy-btn" data-copy="http[:]//exploitxxs...[OMITTED].onion">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type url">Onion URL</span></td>
+              <td class="ioc-val">http[:]//xssisxxs...[OMITTED].onion</td>
+              <td>XSS[.]is underground forum mirror</td>
+              <td><button class="copy-btn" data-copy="http[:]//xssisxxs...[OMITTED].onion">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type url">Web URL</span></td>
+              <td class="ioc-val">https[:]//breachforums[.]vc</td>
+              <td>BreachForums primary domain (defanged)</td>
+              <td><button class="copy-btn" data-copy="https[:]//breachforums[.]vc">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type url">Paste URL</span></td>
+              <td class="ioc-val">https[:]//justpaste[.]it/vance-cfo-nbridge-dox</td>
+              <td>CFO David Vance personal PII paste link</td>
+              <td><button class="copy-btn" data-copy="https[:]//justpaste[.]it/vance-cfo-nbridge-dox">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type handle">Handle</span></td>
+              <td class="ioc-val">AccessSeller @ Exploit[.]in</td>
+              <td>Initial Access Broker advertising VPN access</td>
+              <td><button class="copy-btn" data-copy="AccessSeller @ Exploit[.]in">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type handle">Handle</span></td>
+              <td class="ioc-val">LummaCorp @ XSS[.]is</td>
+              <td>Malware-as-a-service operator Lumma developer profile</td>
+              <td><button class="copy-btn" data-copy="LummaCorp @ XSS[.]is">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type handle">Handle</span></td>
+              <td class="ioc-val">DatabaseKing @ BreachForums</td>
+              <td>Threat actor leaking SQL databases</td>
+              <td><button class="copy-btn" data-copy="DatabaseKing @ BreachForums">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type ip">IP Address</span></td>
+              <td class="ioc-val">185.196.220[.]18</td>
+              <td>Fast-flux IP routing proxy host server (defanged)</td>
+              <td><button class="copy-btn" data-copy="185.196.220[.]18">Copy</button></td>
+            </tr>
+            <tr>
+              <td><span class="ioc-type crypto">BTC Wallet</span></td>
+              <td class="ioc-val">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa[REDACTED]</td>
+              <td>Ransom deposit monitoring address segment (defanged)</td>
+              <td><button class="copy-btn" data-copy="1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa">Copy</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- G. ROE & COMPLIANCE -->
+    <section id="compliance" class="report-section">
+      <div class="section-tag">COMPLIANCE</div>
+      <h2 class="section-title">Rules of Engagement &amp; Compliance</h2>
+      
+      <div class="compliance-box">
+        <div class="cb-header">
+          <span class="cb-title">PASSIVE COLLECTION AUDIT CHECKLIST</span>
+          <span class="badge badge-green">COMPLIANT</span>
+        </div>
+        <div class="cb-body">
+          <div class="cb-checklist">
+            <div class="cbc-item checked">
+              <span class="cbc-status">✓</span>
+              <span class="cbc-label"><strong>No Interaction:</strong> Zero transactions, messaging, or accounts created with actors or on forums. Only passive HTML mirror captures.</span>
+            </div>
+            <div class="cbc-item checked">
+              <span class="cbc-status">✓</span>
+              <span class="cbc-label"><strong>No Malicious Downloads:</strong> No malware files, exploit scripts, or plaintext breach databases were downloaded. Only metadata was collected.</span>
+            </div>
+            <div class="cbc-item checked">
+              <span class="cbc-status">✓</span>
+              <span class="cbc-label"><strong>Isolation Verification:</strong> Collection was performed from a dedicated Linux virtual machine using a host-only firewall, routing all traffic through a dedicated VPN and Tor browser.</span>
+            </div>
+            <div class="cbc-item checked">
+              <span class="cbc-status">✓</span>
+              <span class="cbc-label"><strong>Redaction Standard:</strong> PII coordinates, credit card formats, and plaintext passwords have been scrubbed or blacked-box from all evidence logs.</span>
+            </div>
+          </div>
+          <p class="cb-note">
+            The passive monitoring activities strictly adhere to the guidelines set by US CFAA (Computer Fraud and Abuse Act) and international data protection laws regarding defensive OSINT collection.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="footer-tlp">TLP:AMBER+STRICT — Restricted distribution to authorized entities. Do not circulate.</div>
+    <div class="footer-meta">CONFIDENTIAL RiskProfiler Pre-Hire Practical Assessment | Generated: <span id="gen-date"></span></div>
+  </footer>
+</div>
+
+<!-- Modal Toast Notification -->
+<div id="toast" class="toast">Copied to Clipboard!</div>
+
+<!-- Lightbox Modal for Screenshots -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged Collection Artifact">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
